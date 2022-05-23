@@ -1,0 +1,5 @@
+// Query to get all fields of an object:
+
+SELECT EntityDefinition.QualifiedApiName, QualifiedApiName, DataType
+FROM FieldDefinition
+WHERE EntityDefinition.QualifiedApiName IN ('User')
