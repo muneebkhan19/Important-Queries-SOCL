@@ -3,3 +3,9 @@
 SELECT EntityDefinition.QualifiedApiName, QualifiedApiName, DataType
 FROM FieldDefinition
 WHERE EntityDefinition.QualifiedApiName IN ('User')
+
+
+
+//Clear Logs Salesforce
+
+Select Id from ApexLogs;
