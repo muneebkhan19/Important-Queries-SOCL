@@ -9,3 +9,8 @@ WHERE EntityDefinition.QualifiedApiName IN ('User')
 //Clear Logs Salesforce
 
 Select Id from ApexLogs;
+
+
+// Enforce Sharing Rules In SOCL Queries
+
+Select name,id From Object  enforce sharing rules;
